@@ -1,0 +1,21 @@
+package ch01.ex11;
+
+import java.util.Scanner;
+
+public class ConditionalExample {
+
+	public static void main(String[] args) {
+		// 삼항 연산자(조건 연산자)
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("정수 입력 : ");
+		
+		int num = sc.nextInt();
+		
+		String result = num > 0? "양수입력함" : "음수입력함" ;
+		
+		System.out.println(result);
+	}
+
+}

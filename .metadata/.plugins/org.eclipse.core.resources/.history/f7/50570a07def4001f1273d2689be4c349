@@ -1,0 +1,22 @@
+package ch01.ex09;
+
+public class EqualExample {
+
+	public static void main(String[] args) {
+		int n1 = 10;
+		int n2 = 10;
+		
+		String str1 = "korea";
+		String str2 = "korea";
+		
+		System.out.println(n1==n2);
+		System.out.println(str1==str2);
+		
+		String str3 = new String("korea");
+		String str4 = new String("korea");
+		
+		System.out.println(str3 == str4);
+		
+	}
+
+}

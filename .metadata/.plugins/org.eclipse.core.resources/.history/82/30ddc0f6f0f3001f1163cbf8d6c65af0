@@ -1,0 +1,17 @@
+package ch02.sec01;
+
+public class VariableExchangeExam {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		int b = 20;
+		
+		int c = a;
+		 a = b;
+		 b = c;
+		system.out.println("a : " + a + ", b : " + b);
+		
+	}
+
+}

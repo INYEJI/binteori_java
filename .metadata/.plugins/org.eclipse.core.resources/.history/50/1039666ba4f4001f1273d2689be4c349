@@ -1,0 +1,20 @@
+package ch01.ex01;
+
+public class PrintfExample {
+
+	public static void main(String[] args) {
+		
+		System.out.print("Hello Java"); //줄바꿈 없음
+		System.out.print("Hello Java");
+		System.out.println(); //줄바꿈 있음
+		System.out.println("Hello Java");
+		System.out.println("Hello Java");
+		System.out.println();
+		
+		System.out.printf("Hello,Java\n");
+		System.out.printf("Hello,Java");
+		
+		
+	}
+
+}

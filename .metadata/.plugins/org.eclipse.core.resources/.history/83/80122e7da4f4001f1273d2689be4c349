@@ -1,0 +1,24 @@
+package ch01.ex01;
+
+public class PrintfExample {
+
+	public static void main(String[] args) {
+		
+		System.out.print("Hello Java"); //줄바꿈 없음
+		System.out.print("Hello Java");
+		System.out.println(); //줄바꿈 있음
+		System.out.println("Hello Java");
+		System.out.println("Hello Java");
+		System.out.println();
+		
+		System.out.printf("Hello,Java\n"); //줄바꿈 기능이 없지만 바꾸기 위해 \n 붙임
+		System.out.printf("Hello,Java");
+		
+		int a = 10;
+		int b = 20;
+		
+		System.out.println("a = " + a + ", b = " + b );
+		
+	}
+
+}

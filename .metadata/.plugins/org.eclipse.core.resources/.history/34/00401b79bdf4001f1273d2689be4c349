@@ -1,0 +1,23 @@
+package ch01.ex05;
+
+import java.util.Scanner;
+
+public class Exam_문제 {
+
+	public static void main(String[] args) throws Exception {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("값 입력 : ");
+		String str = sc.nextLine();
+		int x = Integer.parseInt(str);
+		
+		int time = x/3600;
+		int min = (x-time)/600;
+		int sec = min/60;
+		
+		System.out.printf("시:%d, 분:%d, 초:%d", time, min, sec);
+		
+	}
+
+}

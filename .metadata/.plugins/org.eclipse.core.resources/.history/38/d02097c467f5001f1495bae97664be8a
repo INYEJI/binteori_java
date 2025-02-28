@@ -10,7 +10,7 @@ public class ScannerExample {
 
 	public static void main(String[] args) {
 
-		System.out.print("문자 입력 : "); 
+		System.out.print("문자 입력 : "); //값을 받음
 		
 		Scanner sc = new Scanner(System.in); //스캐너 변수를 선언하고(값을 스캔하는) scanner 객체를 생성, 값을 받을 때까지 대기 상태
 		

@@ -1,0 +1,23 @@
+Random random = new Random();          //랜덤코드를 짤 것이다	
+int[] lotto = new int[6]; // 6칸 자리 방 = lotto[ ] 
+boolean flag = false;
+
+
+for(int i = 0; i<lotto.length; i++) {                               //i가 0부터 lotto.length(인덱스 수)까지 반복
+	int temp = (int)(Math.random()*45+1);             //랜덤으로 1부터 45까지 값을 temp에 저장
+
+		for(int j=0; j>lotto.length; j++) {	//j가 0부터 lotto.length(인덱스 수)가 j보다 적을 때 까지만 반복(최대 45)
+			if(temp == lotto[j]) {  		//만약 저장한 랜덤temp값이 = lotto[j]값과 같다면(첫번째는 상관X)  or 저장한temp값이 lotto[j]와 같지 않다면 
+			flag = true; 			//flag값이 true가 되어 or 바로 밑으로 이동한다.
+			break; } }				//break를 걸고 빠져나간다. (밑으로 이동)
+
+	
+		if(flag != true) {			// true가 된 flag값이 true이면                         or false가 된 flag값이 true가 아니기 때문에 if문 만족,
+			lotto[i] = temp; }		// if 수행X , else로 넘어간다                           or lotto[i]값에 temp;값을 저장하고 else를 안하고 밑으로 내려간다
+		else {				// i가 하나 줄어들고(방을 리셋하려고)
+		 i--; 				// flag는 다시 false로 돌아가 처음의 for문으로 간다.
+		 flag = false;} }
+		
+
+		for(int i=0; i<lotto.length; i++) {	// 저장한 temp값이 lotto[j]와 같지 않은 것이므로(중복이 아님) , i가 0부터 lotto.length일때까지 입력하고,
+			System.out.print(lotto[i] + " "); }	출력해라

@@ -20,7 +20,7 @@ public class Lotto {
 			lotto[i] = i+1;
 		
 		//배열 섞기
-		for(int i=0; i<500; i++) {
+		for(int i=0; i<500; i++) { //500번 섞음
 			int index = (int)(Math.random()*45);		
 			int zxy = lotto[0];
 			lotto[0] = lotto[index];

@@ -16,7 +16,7 @@ public class Lotto2 {
 		Random random = new Random();	
 		int[] lotto = new int[45];
 		
-		for (int j=0; j<5; j++) { //5번 출력하고 싶을 때
+		for (int j=0; j<5; j++) { //5번 출력하고 싶을 때 가장 바깥의 for문을 5회 돌게 한다.
 		for(int i=0; i<lotto.length; i++) 
 			lotto[i] = i+1;
 		

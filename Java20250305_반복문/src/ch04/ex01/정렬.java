@@ -4,7 +4,7 @@ public class 정렬 {
 
 	public static void main(String[] args) {
 		
-		int[] numArr = new int[10]; //배열 값 0으로 셋팅
+		int[] numArr = new int[10]; //배열 값 0으로 셋팅, numArr에 0부터 9까지 10개의 값이 들어있는 것
 		int tmp;
 		
 		//System.out.println((int)(Math.random()*100)+1); 랜덤 값 추출(1부터 100까지)

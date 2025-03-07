@@ -1,10 +1,10 @@
-package ch01.ex02;
+package ch01.ex02; //패키지
 
-import java.util.Scanner;
+import java.util.Scanner; //다른패키지에서도 쓰이는 Scanner사용
 
-public class ifExam4 {
+public class ifExam4 { //클라스명
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //반환값X 정적인것
 		
 		/*버스요금 계산 프로그램
 		 * 기본요금 :2000

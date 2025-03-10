@@ -1,15 +1,10 @@
 package ch07.ex01;
 
-
-
-
-
-
 class A {
 	String name;
 	int age;
 	
-	A(){}
+	A(){}//디폴트연산자는 무조건 있어줘야함
 	A(String name, int age){ //A가 name과 age를 갖고 있어서 인자값 4개 모두 값을 받을 수 있음
 		this.name = name;
 		this.age = age;

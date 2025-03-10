@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.ScopedValue"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -10,4 +9,6 @@
     <fullyQualifiedTypeName name="ch06.ex04.Student"/>
     <fullyQualifiedTypeName name="ch06.ex04.BankAccount"/>
     <fullyQualifiedTypeName name="ch06.ex05.MainCarCar"/>
+    <fullyQualifiedTypeName name="ch06.ex01.Car"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

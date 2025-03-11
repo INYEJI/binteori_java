@@ -1,0 +1,44 @@
+package ch07.ex03;
+/*
+ * 사람 클래스
+ * 사람의 특징 - name,age,height,weight...
+ * 사람의 동작 - run, sleep,eat,study...
+ * 
+ * 간추려 내는 과정을 추상화
+ */
+//object에 있는 것은 모든 class가 접근 가능
+
+public class Person {
+
+	private String name;
+	private int age;
+	
+	public Person(){
+		this("남산",1);
+		//name = "남산";
+		//age = 1;
+	}
+	
+	public Person(String name) {
+		this(name,1);
+		//this.name = name;
+		//age = 1;
+	}
+	
+	public Person(String name,int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	String displayInfo() {
+		return name + ";" + age;
+	}
+	
+	public void run() {
+		System.out.println("Run!");
+	} //다른 패키지에서 쓰고 싶으면 public을 붙여줘야함
+	public void eat() {
+		System.out.println("Eat!");
+	}
+	
+}

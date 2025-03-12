@@ -1,0 +1,5 @@
+git init
+
+git clone + 주소
+
+import >복사된 폴더 > 불러오기

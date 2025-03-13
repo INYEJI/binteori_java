@@ -1,4 +1,4 @@
-package ch07.ex02;
+package ch07.ex03;
 
 public class Student extends Person{
 	
@@ -12,7 +12,9 @@ public class Student extends Person{
 		this.grade = grade;
 	}
 	
-	void study() {}
+	void study() {
+		System.out.println("study()");
+	}
 	
 	
 	@Override

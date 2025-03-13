@@ -1,4 +1,4 @@
-package ch07.ex02;
+package ch07.ex04;
 
 public class Person {
 	private String name;
@@ -17,8 +17,12 @@ public class Person {
 	public int getAge() {
 		return age;
 	}
-	void sleep() {}
-	void eat() {}
+	void sleep() {
+		System.out.println("sleep()");
+	}
+	void eat() {
+		System.out.println("eat()");
+	}
 	
 	
 	

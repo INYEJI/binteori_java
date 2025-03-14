@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.ScopedValue"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="ch06.ex04.Person"/>
     <fullyQualifiedTypeName name="ch06.ex04.Student"/>
     <fullyQualifiedTypeName name="ch06.ex04.BankAccount"/>
     <fullyQualifiedTypeName name="ch06.ex05.MainCarCar"/>
     <fullyQualifiedTypeName name="ch06.ex01.Car"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="ch07.ex02.UniversityStudent"/>
+    <fullyQualifiedTypeName name="ch07.ex08.SalaryExam"/>
+    <fullyQualifiedTypeName name="ch07.ex08.SalaryExpr"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="ch07.ex08.GradeExpr"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ch07.ex08.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="ch07.ex08.GuGuDanExpr"/>
 </qualifiedTypeNameHistroy>

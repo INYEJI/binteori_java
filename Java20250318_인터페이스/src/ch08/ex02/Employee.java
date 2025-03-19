@@ -16,6 +16,7 @@ public abstract class Employee {
 	}
 	
 	public abstract double tax();
+	
 	public String getName() {
 		return name;
 	}
@@ -45,8 +46,8 @@ public abstract class Employee {
 
 class Secretary extends Employee implements Bonus{
 	
-	Secretary(){}
-	Secretary(String name, int number, String department, int salary){
+	public Secretary(){}
+	public Secretary(String name, int number, String department, int salary){
 		super(name, number, department, salary);
 	}
 	

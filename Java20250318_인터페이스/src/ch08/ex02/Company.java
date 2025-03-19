@@ -17,11 +17,17 @@ public class Company {
 		for(Employee emp: employees) {
 			if(emp instanceof Bonus) {
 				Bonus bonus = (Bonus)emp;
-				((Bonus) emp).incentive(100);
+				bonus.incentive(100);
 			}
 		}
+	
+		System.out.println();
+		System.out.println();
+		System.out.println("name\t department\t salary\t tax\t extra pay");
+		System.out.println("------------------------------------------------------------------------------------");
+		Company.printEmployee(employees, true);
 		
-}
+	}	
 		
 		public static void printEmployee(Employee[] emp, boolean isTax) {
 			
@@ -33,12 +39,18 @@ public class Company {
 			
 			 for(Employee e : emp) {
 				System.out.printf("%-17s%-10s%18d", e.getName(), e.getDepartment(),e.getSalary());
+				
+				if(isTax) {
+					System.out.printf("%10.f" ,e.tax());
+				}
+				
 				if(e instanceof Sales) {
-					Sales s = (Sales)e;
-					System.out.printf("%18.1f", s.getExtraPay());
+					//Sales s = (Sales)e;
+					//System.out.printf("18.1f",s.getExtraPay());
+					System.out.printf("%10.1f", ((Sales)e).getExtraPay());
 				}
 				System.out.println();
 			}
 		}
-
 }
+
